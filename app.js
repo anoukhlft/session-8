@@ -1,45 +1,57 @@
 var app = new Vue({
   el: '#app',
   data: {
-    firstName: "Jules",
-    lastName: "Bonnard",
-    description: "Je suis datajournaliste à l'AFP et j'enseigne le code, le traitement, et la visualisation de données à Sciences Po.",
+    firstName: "Anouk",
+    lastName: "Helft",
+    description: "Je suis étudiante en Master 2 Ecriture et Développement à l'Ecole de Journalisme de Sciences Po.",
     photo: "https://pbs.twimg.com/profile_images/899285838516936704/nfeLD7he_400x400.jpg",
-    twitter: "julesbonnard",
-    github: "julesbonnard",
-    mail: "julesbonnard@gmail.com",
+    twitter: "anoukhelft",
+    github: "anoukhlft",
+    mail: "anouk.helft@sciencespo.fr",
     experiences: [{
-      dateBegin: "2014",
-      dateEnd: "Today",
-      name: "Agence France Presse",
-      title: "Datajournalist",
-      description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-    }, {
-      dateBegin: "Été 2013",
+      dateBegin: "Août 2018",
       dateEnd: false,
-      name: "Le Monde.fr",
-      title: "Data-journalist",
-      description: false
+      name: "France Télévisions",
+      title: "Stagiaire au Bureau de Londres",
+      description: "tenue du site web du Bureau, reportages pour CultureBox et participation aux sujets JT du 13 heures et du 20 heures."
     }, {
-      dateBegin: "2012",
-      dateEnd: "2013",
-      name: "Le Dauphiné Libéré",
-      title: "Stagiaire et correspondant de presse",
-      description: false
+      dateBegin: "Juillet 2018",
+      dateEnd: false,
+      name: "Effervescence Productions",
+      title: "Stagiaire Web et Community Management",
+      description: "Aide sur les plateaux de tournage et rédaction des pitchs de documentaires et d'émissions France Télévisions."
+    }, {
+       dateBegin: "Décembre 2017",
+      dateEnd: "Janvier 2018",
+      name: "France 5",
+      title: "Stagiaire Web et aide-JRI",
+      description: "Travail au desk, alimentation du site web et aide à la réalisation de sujet pour le JT du magazine de la Santé."
+    }, {
+      dateBegin: "Été 2017",
+      dateEnd: false,
+      name: "Europe 1",
+      title: "Stagiaire (Service Web)",
+      description: "Veille et rédaction d'article pour le web"
+    }, {
+      dateBegin: "Ete 2016",
+      dateEnd: false,
+      name: "Le Monde",
+      title: "Stagiaire (Service Planète)",
+      description: "Rédaction d'articles pour le web et le print et veille" 
     }],
     formations: [{
-      dateBegin: "2012",
-      dateEnd: "2014",
+      dateBegin: "2017",
+      dateEnd: "2019",
       name: "Master Journalisme",
-      university: "Sciences Po Grenoble"
+      university: "Ecole de Journalisme (Sciences Po Paris)"
     }, {
-      dateBegin: "2009",
-      dateEnd: "2012",
-      name: "Bachelor Sciences Politiques",
-      university: "Sciences Po Grenoble"
+      dateBegin: "2014",
+      dateEnd: "2017",
+      name: "Licence en Affaires Publiques",
+      university: "Université Paris-Dauphine"
     }],
-    languages: ["Anglais"],
-    skills: ["Node", "VueJS", "D3js", "SCSS", "HTML"]
+    languages: ["Anglais", "Espagnol", "Hebreu"],
+    skills: ["Pack Adobe", "Pack Office", "HTML", ""]
   },
   computed: {
     fullName() {
